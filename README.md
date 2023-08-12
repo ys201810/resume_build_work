@@ -1,5 +1,5 @@
 ## resume_build_work
-![サンプル画像](materials/imgs/sample.png "hero")
+![サンプル画像](material/imgs/sample.png "hero")
 
 ### 使い方
 1 poetryインストール  
