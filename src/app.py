@@ -16,7 +16,7 @@ openai.api_key = os.environ.get("API_KEY")
 model = os.environ.get("USE_MODEL")
 
 
-def generate_and_brushup_resume(job_title, position, mission, domain):
+def generate_and_brushup_resume(job_title: str, position: str, mission: str, domain: str):
     # 1. 入力の4つのテキストから職務経歴のテキストを生成する。
     prompt_file = prompt_path / 'resume_make.txt'
     prompt_params = {
